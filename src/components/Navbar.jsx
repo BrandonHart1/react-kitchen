@@ -56,13 +56,13 @@ const Nav = styled.nav`
       letter-spacing: 0.2rem;
       transition: 0.3s ease-in-out;
       &:hover {
-        // color: #1b1b1b;
-        font-weight: 900;
+        color: #dc143c ;
+        border-bottom: 2px solid #dc143c;
       }
     }
 
     // .active {
-    //   color: #1b1b1b;
+    //   color: #f5f5f5;
     // }
   }
 }
