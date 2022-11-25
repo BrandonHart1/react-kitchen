@@ -28,9 +28,10 @@ export default function MenuData() {
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis iure modi quaerat aspernatur at?',
     },
     {
-      name: '',
-      price: '',
-      description: '',
+      name: 'Blue Crab Bisque',
+      price: '10',
+      description:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minima quidem iste quos ut.',
     },
     {
       name: '',
