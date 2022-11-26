@@ -20,8 +20,10 @@ const Hero = () => {
       <div>
         <h1>Menu</h1>
         {data.items.map((item) => (
-          <div>
-            <p>{item.name}</p>
+          <div className='menu__items'>
+            <h3>{item.name}</h3>
+            <h4>{item.price}</h4>
+            <p>{item.description}</p>
           </div>
         ))}
       </div>
@@ -30,6 +32,7 @@ const Hero = () => {
 };
 
 const Section = styled.section`
+  background-color: #202020;
   height: 90vh;
   width: 100%;
   position: relative;
