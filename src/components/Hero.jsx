@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import peppers_background from '../assets/peppers_background.jpg';
+import data from '../data/data';
 // import filet_fries from '../assets/filet_fries.jpg';
 
 const Hero = () => {
@@ -18,7 +19,11 @@ const Hero = () => {
       </Section>
       <div>
         <h1>Menu</h1>
-        <h2>Appetizers</h2>
+        {data.items.map((item) => (
+          <div>
+            <p>{item.name}</p>
+          </div>
+        ))}
       </div>
     </>
   );

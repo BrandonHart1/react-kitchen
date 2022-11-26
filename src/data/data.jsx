@@ -1,8 +1,8 @@
 import React from 'react';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 
-export default function MenuData() {
-  const data = [
+const data = {
+  items: [
     {
       name: 'Tuna',
       price: '15',
@@ -48,5 +48,7 @@ export default function MenuData() {
       price: '',
       description: '',
     },
-  ];
-}
+  ],
+};
+
+export default data;
