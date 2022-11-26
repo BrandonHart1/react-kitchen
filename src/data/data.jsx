@@ -30,21 +30,21 @@ const data = {
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minima quidem iste quos ut.',
     },
-    {
-      name: '',
-      price: '',
-      description: '',
-    },
-    {
-      name: '',
-      price: '',
-      description: '',
-    },
-    {
-      name: '',
-      price: '',
-      description: '',
-    },
+    // {
+    //   name: '',
+    //   price: '',
+    //   description: '',
+    // },
+    // {
+    //   name: '',
+    //   price: '',
+    //   description: '',
+    // },
+    // {
+    //   name: '',
+    //   price: '',
+    //   description: '',
+    // },
   ],
 };
 
