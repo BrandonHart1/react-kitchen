@@ -3,7 +3,8 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer';
-import Menu from './components/Menu';
+import Appetizers from './components/Appetizers';
+import SignatureMenu from './components/SignatureMenu';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <ScrollToTop />
       <Navbar />
       <Hero />
-      <Menu />
+      <Appetizers />
+      <SignatureMenu />
       <Footer />
     </>
     // Testing

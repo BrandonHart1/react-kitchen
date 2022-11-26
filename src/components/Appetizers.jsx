@@ -2,11 +2,11 @@ import React from 'react';
 import data from '../data/data';
 import styled from 'styled-components';
 
-const Menu = () => {
+const Appetizers = () => {
   return (
     <>
-      <MenuSection className='menu'>
-        <h1>Menu</h1>
+      <AppetizerSection className='menu'>
+        <h1>Appetizers</h1>
         {data.items.map((item, i) => (
           <div key={i} className='menu__items'>
             <div className='menu__name'>
@@ -20,12 +20,12 @@ const Menu = () => {
             </div>
           </div>
         ))}
-      </MenuSection>
+      </AppetizerSection>
     </>
   );
 };
 
-const MenuSection = styled.menu`
+const AppetizerSection = styled.menu`
   background-color: #000000;
   color: #fff;
 
@@ -42,4 +42,4 @@ const MenuSection = styled.menu`
   }
 `;
 
-export default Menu;
+export default Appetizers;

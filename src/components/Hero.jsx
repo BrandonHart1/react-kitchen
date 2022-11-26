@@ -45,6 +45,7 @@ const Section = styled.section`
   }
 
   .description h1 {
+    margin-left: 20px;
     font-size: 50px;
   }
 
