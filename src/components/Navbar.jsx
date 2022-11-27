@@ -49,7 +49,7 @@ const Nav = styled.nav`
   }
   li {
     a {
-      color: #fff;
+      color: #F3F3F3 ;
       font-weight: 600;
       text-decoration: none;
       text-transform: uppercase;

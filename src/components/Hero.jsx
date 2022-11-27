@@ -34,7 +34,7 @@ const Section = styled.section`
     }
   }
   .description {
-    color: #fff;
+    color: #f3f3f3;
     position: absolute;
     top: 0;
     display: flex;

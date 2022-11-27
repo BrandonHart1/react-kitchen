@@ -1,13 +1,13 @@
 import React from 'react';
-import signatureData from '../data/signatureData';
+import dessertData from '../data/dessertData';
 import styled from 'styled-components';
 
-const SignatureMenu = () => {
+const DessertMenu = () => {
   return (
     <>
-      <SignatureSection>
-        <h1>Signature Entrées</h1>
-        {signatureData.items.map((item, i) => (
+      <DessertSection>
+        <h1>Desserts</h1>
+        {dessertData.items.map((item, i) => (
           <div className='menu__items'>
             <div className='menu__name'>
               <h3>{item.name}</h3>
@@ -20,12 +20,12 @@ const SignatureMenu = () => {
             </div>
           </div>
         ))}
-      </SignatureSection>
+      </DessertSection>
     </>
   );
 };
 
-const SignatureSection = styled.menu`
+const DessertSection = styled.menu`
   background-color: #000000;
   color: #f3f3f3;
 
@@ -42,4 +42,4 @@ const SignatureSection = styled.menu`
   }
 `;
 
-export default SignatureMenu;
+export default DessertMenu;

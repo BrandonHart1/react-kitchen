@@ -27,7 +27,7 @@ const Appetizers = () => {
 
 const AppetizerSection = styled.menu`
   background-color: #000000;
-  color: #fff;
+  color: #f3f3f3;
 
   h1 {
     text-align: center;
