@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../data/data';
+import appetizerData from '../data/appetizerData';
 import styled from 'styled-components';
 
 const Appetizers = () => {
@@ -7,7 +7,7 @@ const Appetizers = () => {
     <>
       <AppetizerSection className='menu'>
         <h1>Appetizers</h1>
-        {data.items.map((item, i) => (
+        {appetizerData.items.map((item, i) => (
           <div key={i} className='menu__items'>
             <div className='menu__name'>
               <h3>{item.name}</h3>
