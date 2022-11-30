@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import kitchen_logo from '../assets/kitchen_logo.png';
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (

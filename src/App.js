@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop';
@@ -14,17 +14,11 @@ function App() {
       <Navbar />
       <Hero />
       <br />
-      <br />
-      <br />
       <Appetizers />
-      <br />
-      <br />
       <br />
       <SignatureMenu />
       <br />
-      <br />
       <DessertMenu />
-      <br />
       <br />
       <Footer />
     </>
