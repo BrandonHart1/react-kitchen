@@ -12,6 +12,7 @@ const Navbar = () => {
       </div>
       <ul className='links'>
         <li>
+          {/* ----- may change links ----- */}
           <a href='#home' className='active'>
             Home
           </a>
