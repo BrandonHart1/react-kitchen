@@ -36,7 +36,7 @@ section {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #fc4958, #e85d05, #fc4958);
+  background: linear-gradient(to bottom, #000000, #717171, #ffffff);
 }
 
 .show {

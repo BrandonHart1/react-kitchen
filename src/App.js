@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Appetizers from './components/Appetizers';
 import SignatureMenu from './components/SignatureMenu';
 import DessertMenu from './components/DessertMenu';
+import Locations from './components/Locations';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <SignatureMenu />
       <br />
       <DessertMenu />
+      <br />
+      <Locations />
       <br />
       <Footer />
     </>
