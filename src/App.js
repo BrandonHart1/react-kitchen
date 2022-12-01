@@ -22,7 +22,6 @@ function App() {
       <br />
       <Footer />
     </>
-    // Testing
   );
 }
 

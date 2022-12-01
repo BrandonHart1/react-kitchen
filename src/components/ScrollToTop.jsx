@@ -7,9 +7,11 @@ export default function ScrollToTop() {
     window.scrollTo({ top: 0 });
   };
   window.addEventListener('scroll', () => {
+    // ----- return the number of ixels currently scrolled -----
     window.pageYOffset > 200 ? setScrollState(true) : setScrollState(false);
   });
   return (
+    // -------- return to top of page --------
     <ToTop onClick={toTop} scrollState={scrollState}>
       <AiOutlineArrowUp />
     </ToTop>
