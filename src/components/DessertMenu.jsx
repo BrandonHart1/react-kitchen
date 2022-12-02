@@ -40,6 +40,11 @@ const DessertSection = styled.menu`
     // border: 3px solid #dc143c;
     padding: 4vw;
   }
+
+  h4 {
+    font-style: italic;
+    font-weight: normal;
+  }
 `;
 
 export default DessertMenu;

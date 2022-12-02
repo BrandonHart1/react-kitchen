@@ -6,6 +6,7 @@ import kitchen_logo from '../assets/kitchen_logo.png';
 const Navbar = () => {
   return (
     <Nav>
+      {/* <ScrollLink> */}
       <div className='logo'>
         <img src={kitchen_logo} alt='Peppers' />
         <div className='toggle'></div>
@@ -24,6 +25,7 @@ const Navbar = () => {
           <a href='#locations'>Locations</a>
         </li>
       </ul>
+      {/* </ScrollLink> */}
     </Nav>
   );
 };
