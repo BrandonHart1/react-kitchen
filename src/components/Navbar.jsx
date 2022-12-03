@@ -6,14 +6,12 @@ import kitchen_logo from '../assets/kitchen_logo.png';
 const Navbar = () => {
   return (
     <Nav>
-      {/* <ScrollLink> */}
       <div className='logo'>
         <img src={kitchen_logo} alt='Peppers' />
         <div className='toggle'></div>
       </div>
       <ul className='links'>
         <li>
-          {/* ----- may change links ----- */}
           <a href='#home' className='active'>
             Home
           </a>
@@ -25,7 +23,6 @@ const Navbar = () => {
           <a href='#locations'>Locations</a>
         </li>
       </ul>
-      {/* </ScrollLink> */}
     </Nav>
   );
 };
