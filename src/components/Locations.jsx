@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const Locations = () => {
   return (
     <>
-      <LocationSection>
+      <LocationSection className='locations'>
         <h1>Locations</h1>
         {locationData.items.map((item, i) => (
           <div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import kitchen_logo from '../assets/kitchen_logo.png';
-// import { Link } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
@@ -12,15 +12,26 @@ const Navbar = () => {
       </div>
       <ul className='links'>
         <li>
-          <a href='#home' className='active'>
+          {/* Scroll to specific component */}
+          <Link to='#home' spy={true} smooth={true} offset={50} duration={500}>
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href='#menu'>Menu</a>
+          <Link to='menu' spy={true} smooth={true} offset={-15} duration={500}>
+            Menu
+          </Link>
         </li>
         <li>
-          <a href='#locations'>Locations</a>
+          <Link
+            to='locations'
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Locations
+          </Link>
         </li>
       </ul>
     </Nav>

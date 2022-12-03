@@ -36,9 +36,9 @@ section {
   width: 0.4vw;
 }
 
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   background: linear-gradient(to bottom, #000000, #717171, #ffffff);
-}
+} */
 
 .show {
   opacity: 1 !important;

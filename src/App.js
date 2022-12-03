@@ -17,6 +17,10 @@ function App() {
       <br />
       <br />
       <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <Appetizers />
       <br />
       <br />
