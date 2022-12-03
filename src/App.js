@@ -15,13 +15,23 @@ function App() {
       <Navbar />
       <Hero />
       <br />
+      <br />
+      <br />
       <Appetizers />
+      <br />
+      <br />
       <br />
       <SignatureMenu />
       <br />
+      <br />
+      <br />
       <DessertMenu />
       <br />
+      <br />
+      <br />
       <Locations />
+      <br />
+      <br />
       <br />
       <Footer />
     </>
