@@ -18,7 +18,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='menu' spy={true} smooth={true} offset={-15} duration={500}>
+          <Link to='menu' spy={true} smooth={true} offset={-15} duration={200}>
             Menu
           </Link>
         </li>
@@ -27,8 +27,8 @@ const Navbar = () => {
             to='locations'
             spy={true}
             smooth={true}
-            offset={50}
-            duration={500}
+            offset={200}
+            duration={0}
           >
             Locations
           </Link>

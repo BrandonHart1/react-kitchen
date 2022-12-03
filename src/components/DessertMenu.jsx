@@ -8,7 +8,7 @@ const DessertMenu = () => {
       <DessertSection>
         <h1>Desserts</h1>
         {dessertData.items.map((item, i) => (
-          <div className='menu__items'>
+          <div key={i} className='menu__items'>
             <div className='menu__name'>
               <h3>{item.name}</h3>
             </div>

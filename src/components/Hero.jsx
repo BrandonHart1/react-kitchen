@@ -30,7 +30,7 @@ const Section = styled.section`
       width: 100%;
       height: 100%;
       object-fit: cover;
-      filter: brightness(65%);
+      filter: brightness(85%);
     }
   }
   .description {

@@ -8,7 +8,7 @@ const Locations = () => {
       <LocationSection className='locations'>
         <h1>Locations</h1>
         {locationData.items.map((item, i) => (
-          <div>
+          <div key={i}>
             <h3>{item.location}</h3>
             <h4>{item.phone}</h4>
           </div>
@@ -19,8 +19,9 @@ const Locations = () => {
 };
 
 const LocationSection = styled.menu`
-  background-color: #d3d3d3;
-  color: #000000;
+  padding: 100px;
+  background: linear-gradient(#000000, #dc143c);
+  color: #fff;
 
   h1 {
     text-align: center;

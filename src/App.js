@@ -17,22 +17,24 @@ function App() {
       <br />
       <br />
       <br />
-      <br />
+      <hr />
       <br />
       <br />
       <br />
       <Appetizers />
       <br />
+      <hr />
       <br />
       <br />
       <SignatureMenu />
       <br />
+      <hr />
       <br />
       <br />
       <DessertMenu />
       <br />
       <br />
-      <br />
+      <hr />
       <Locations />
       <br />
       <br />
