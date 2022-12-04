@@ -12,7 +12,7 @@ const Navbar = () => {
       </div>
       <ul className='links'>
         <li>
-          {/* Scroll to specific component */}
+          {/* -------- Scroll to specific component -------- */}
           <Link to='#home' spy={true} smooth={true} offset={50} duration={500}>
             Home
           </Link>

@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 const Footer = () => {
   return (
+    // -------- Add social media icons --------
     <>
       <FooterSection>
         <div className='socials'>
