@@ -30,7 +30,7 @@ const LocationSection = styled.menu`
 
   h3 {
     text-align: center;
-    font-size: 25px;
+    font-size: 17px;
     padding: 8px;
   }
 `;
