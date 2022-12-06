@@ -7,6 +7,8 @@ const SignatureMenu = () => {
     <>
       <SignatureSection>
         <h1>Signature Entrées</h1>
+
+        {/* -------- Columns for items -------- */}
         {signatureData.items.map((item, i) => (
           <div key={i} className='menu__items'>
             <div className='menu__name'>
